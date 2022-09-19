@@ -26,11 +26,11 @@ const HeroSection = () => {
 
             <div className="w-full h-[80%] flex flex-col justify-between">
               <div className="my-auto pb-8">
-                <h1 className="font-heading text-5xl font-semibold text-primary text-center py-6">
+                <h1 className="font-heading text-3xl lg:text-5xl font-semibold text-primary text-center py-6">
                   Instrumentation Society of India
                 </h1>
 
-                <h2 className="font-primary text-3xl font-normal text-secondary text-center">
+                <h2 className="font-primary text-2xl lg:text-3xl font-normal text-secondary text-center">
                   The Chapter of VIT
                 </h2>
               </div>
@@ -38,7 +38,7 @@ const HeroSection = () => {
               <div>
                 <div className="w-full flex justify-center items-center mb-20">
                   <div className="flex flex-col lg:flex-row lg:justify-between items-center w-[60%]">
-                    <h3 className="font-primary text-3xl font-normal text-primary">
+                    <h3 className="font-primary text-2xl lg:text-3xl font-normal text-primary py-3">
                       Extraordinary{" "}
                     </h3>
                     <Image
@@ -49,7 +49,7 @@ const HeroSection = () => {
                       height={12}
                       draggable={false}
                     />
-                    <h3 className="font-primary text-3xl font-normal text-primary">
+                    <h3 className="font-primary text-2xl lg:text-3xl font-normal text-primary py-3">
                       Technomaniacs{" "}
                     </h3>
                     <Image
@@ -60,18 +60,18 @@ const HeroSection = () => {
                       height={12}
                       draggable={false}
                     />
-                    <h3 className="font-primary text-3xl font-normal text-primary">
+                    <h3 className="font-primary text-2xl lg:text-3xl font-normal text-primary py-3">
                       Prestigious{" "}
                     </h3>
                   </div>
                 </div>
 
-                <p className="italic font-primary text-xl text-primary text-center w-[80%] mx-auto font-medium">
+                <p className="italic font-primary text-lg lg:text-xl text-primary text-center w-[80%] mx-auto font-medium">
                   &quot;Imagination is more important than knowledge. For
                   knowledge is limited, whereas imagination embraces the entire
                   world, stimulating progress, giving birth to evolution.&quot;
                 </p>
-                <p className="font-primary text-xl text-primary text-center pt-4 pb-8 font-medium">
+                <p className="font-primary text-lg lg:text-xl text-primary text-center pt-4 pb-8 font-medium">
                   ~Albert Einstein
                 </p>
               </div>

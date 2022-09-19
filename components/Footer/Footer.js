@@ -28,7 +28,7 @@ const Footer = () => {
               />
             </div>
 
-            <div className="lg:w-[30%] py-6">
+            <div className="w-[80%] lg:w-[30%] py-6 mx-auto">
               <h1 className="text-white text-3xl font-primary py-4 text-center">
                 CONTACT US
               </h1>
