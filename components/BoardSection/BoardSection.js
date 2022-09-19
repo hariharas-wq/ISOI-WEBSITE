@@ -108,17 +108,18 @@ const BoardSection = () => {
               isSmall={size.width <= 764 ? true : false}
             />
           </div>
-          <div>
+          <div className="flex flex-wrap justify-between">
             {boardData.map((item) => {
               return (
                 <>
-                  <BoardCard
-                    key={item.id}
-                    src={item.src}
-                    alt={item.name}
-                    name={item.name}
-                    designation={item.desigination}
-                  />
+                  <div className="my-4" key={item.id}>
+                    <BoardCard
+                      src={item.src}
+                      alt={item.name}
+                      name={item.name}
+                      designation={item.desigination}
+                    />
+                  </div>
                 </>
               );
             })}

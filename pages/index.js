@@ -16,8 +16,8 @@ export default function Home() {
       <CounterSection />
       <EventSection />
       <PhotoGallery />
-      {/* <BoardSection />
-      <FAQs /> */}
+      <BoardSection />
+      {/* <FAQs /> */}
       <Footer />
     </>
   );
