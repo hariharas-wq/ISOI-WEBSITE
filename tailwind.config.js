@@ -14,7 +14,9 @@ module.exports = {
       colors: {
         primary: "#293855",
         secondary: "#4165D5",
-        copyright: "rgba(65, 101, 213, 0.62);",
+        tert: "#C3E9FC",
+        bluebg: "#EDF4FF",
+        copyright: "#3854A4",
       },
     },
   },
