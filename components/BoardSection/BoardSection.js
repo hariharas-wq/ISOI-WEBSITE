@@ -108,7 +108,7 @@ const BoardSection = () => {
               isSmall={size.width <= 764 ? true : false}
             />
           </div>
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-wrap justify-center lg:justify-between">
             {boardData.map((item) => {
               return (
                 <>

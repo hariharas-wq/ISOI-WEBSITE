@@ -17,7 +17,7 @@ export default function Home() {
       <EventSection />
       <PhotoGallery />
       <BoardSection />
-      {/* <FAQs /> */}
+      <FAQs />
       <Footer />
     </>
   );
